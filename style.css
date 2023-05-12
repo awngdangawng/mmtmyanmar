@@ -3,11 +3,13 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	
 }
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
+	background-color: #29323c;
 }
 a {
 	text-decoration: none;
@@ -34,8 +36,8 @@ p {
 }
 .section-title {
 	font-size: 4rem;
-	font-weight: 300;
-	color: black;
+	font-weight: 500;
+	color: rgb(217, 255, 0);
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
@@ -114,8 +116,8 @@ p {
 	left: 0%;
 }
 #header .nav-list ul a {
-	font-size: 2.5rem;
-	font-weight: 500;
+	font-size: 2.7rem;
+	font-weight: 700;
 	letter-spacing: 0.2rem;
 	text-decoration: none;
 	color: white;
@@ -140,7 +142,8 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: crimson;
+	color: rgb(0, 255, 34);
+	text-decoration: underline;
 }
 #header .hamburger {
 	height: 60px;
@@ -291,7 +294,8 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-image: url();
+	background-color: #00ff9d;
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -305,10 +309,12 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #ff00dd 0%, #00ff15 100%);
 	opacity: 0.9;
 	z-index: -1;
 }
+
+
 #services .service-bottom .icon {
 	height: 80px;
 	width: 80px;
@@ -364,13 +370,14 @@ p {
 	color: white;
 }
 #projects .project-info h1 {
-	font-size: 4rem;
-	font-weight: 500;
+	font-size: 5rem;
+	font-weight: 700;
 }
 #projects .project-info h2 {
-	font-size: 1.8rem;
+	font-size: 3rem;
 	font-weight: 500;
 	margin-top: 10px;
+	color: #00ff0d;
 }
 #projects .project-info p {
 	color: white;
@@ -422,23 +429,30 @@ p {
 	height: 360px;
 }
 #about .col-right {
-	width: 50%;
+	width: 100%;
+	
 }
 #about .col-right h2 {
+	margin-left: 100px;
 	font-size: 2rem;
 	font-weight: 500;
 	letter-spacing: 0.1rem;
 	margin-bottom: 10px;
 	font-weight: bolder;
 	color: rgb(255, 0, 179);
+	text-decoration: underline;
 }
 #about .col-right p {
+	margin-left: 100px;
 	margin-bottom: 20px;
 	font-size: 18px;
 	font-weight: bolder;
+	color: #ffffff;
 }
 #about .col-right .cta {
-	color: black;
+	margin-top: 90px;
+	margin-left: 100px;
+	color: rgb(255, 254, 254);
 	margin-bottom: 50px;
 	padding: 10px 20px;
 	font-size: 2rem;
@@ -483,11 +497,11 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	box-shadow: 0px 0px 18px 0 #0000002c;
+	box-shadow: 0px 0px 18px 0 #ffffff;
 	transition: 0.3s ease box-shadow;
 }
 #contact .contact-item:hover {
-	box-shadow: 0px 0px 5px 0 #0000002c;
+	box-shadow: 0px 0px 10px 0 #ff0000;
 }
 #contact .icon {
 	width: 70px;
@@ -498,13 +512,13 @@ p {
 	font-size: 2.5rem;
 	font-weight: 700;
 	margin-bottom: 5px;
-	color: rgb(45, 0, 247);
+	color: rgb(255, 255, 255);
 }
 #contact .contact-info h2 {
 	font-size: 1.8rem;
 	line-height: 2rem;
 	font-weight: 700;
-	color: black;
+	color: rgb(255, 255, 255);
 }
 /*End contact Section */
 
