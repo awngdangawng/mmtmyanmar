@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="wave.css">
+    <link rel="stylesheet" href="email.css">
+
+    <title>MMT Myanmar</title>
+    
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("3v-xsf7mR8cWdhnJT");
+   })();
+</script>
+
+</head>
+<body>
+    <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span></span>MMT <span>Myanmar</span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="about.html" data-after="About">About</a></li>
+            <li><a href="service.html" data-after="Service">Services</a></li>
+            <li><a href="project.html" data-after="Projects">Projects</a></li>
+            <li><a href="clients.html" data-after="Projects">Clients</a></li>           
+            <li><a href="contact.html" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Si Thu Lwin <span></span></h1>
+        <a href="" type="button" class="cta">More</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Contact Start -->
+
+  <div class="name">
+    <div class="contact-name">
+        <h1>Contact <span>Us</span></h1>
+    </div>
+
+  </div>
+  <div class="contact-wrap">
+    <div class="contact-in">
+        <h1>Contact Info</h1>
+        <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+        <p>+95 9 266665180, +95 9 777100467</p>
+        <h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+        <p>usithulwin.mm@gmail.com</p>
+        <p></p>
+        <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
+        <h3></h3>
+        <h4></h4>
+        <p>Ha (14/133), Homon Block, Near Kachin Market, Muse, Northern Shan State.</p>
+        <p></p>
+
+    </div>
+    <div class="contact-in">
+        <h1>Send a Message</h1>
+        
+            <input type="text" id="name" placeholder="Enter your name" class="contact-in-input">
+            <input type="email" id="email" placeholder="Enter your email" class="contact-in-input">
+            <input type="subject" id="subject" placeholder="Enter your subject" class="contact-in-input">
+            <textarea id="message" class="contact-in-textarea"></textarea>
+            <button class="btn btn-primary"onclick="sendMail()">Submit</button>
+        </form>
+    </div>
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1035.247852465194!2d97.91010682980406!3d24.00530190314348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2smm!4v1674917355357!5m2!1sen!2smm" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<!-- Contact End -->  
+
+    <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+95 9 266665180</h2>
+            <h2>+95 9 777100467</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>usithulwin.mm@gmail.com</h2>
+            <h2></h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Ha (14/133), Homon Block, Near Kachin Market, Muse, Northern Shan State.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+  
+    <footer>
+
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+    
+        </div>
+    
+        <ul class="social-icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+    
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+            
+        </ul>
+        
+        <p>Copyright © 2022 Si Thu Lwin (Ayeyarwady). All rights reserved</p>
+    
+    
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+      
+      <script src="./app.js"></script>
+
+</body>
+</html>
